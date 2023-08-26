@@ -1,0 +1,123 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Display items horizontally */
+    justify-content: center; /* Center items horizontally */
+    background-color: #333;
+    vertical-align: middle;
+}
+
+nav li {
+    padding: 10px 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Introduction */
+.introduction {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+/* Projects */
+.projects {
+    padding: 2rem;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+/* Skills */
+.skills {
+    padding: 2rem;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+.contact li{
+    list-style: none;
+    
+}
+.contact a{
+    color: blue;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+.project-details {
+    display: none;
+}
+
+.show-details {
+    display: block;
+}
+
